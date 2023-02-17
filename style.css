@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: rgb(240, 115, 136);
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+label{
+  width: 50%;
+}
+
+form{
+width: 80%;
+margin: 0 auto;
+margin-top: 20px;
+}
+
+form div{
+    display: flex;
+    padding: 1em;
+  margin: 0 auto;
+
+}
+
+input{
+    width: 15em;
+}
+
+output{
+    margin-left: 1em;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+button{
+    padding: 10px 10px;
+    border-radius: 25px;
+    border: 1px solid grey;
+}

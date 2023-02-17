@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>HTML 5 Form Input Fields</h1>
+    </div>
+    <div>
+        <form action="submit">
+            <div class="">
+                <label for="name">text input type for Name:</label>
+                <input type="text" id="name" placeholder="Enter your name">
+            </div>
+            <div>
+                <label for="password">password input type:</label>
+                <input type="password" name="password" id="pass" placeholder="Enter password">
+            </div>
+            <div>
+                <label for="email">email input type:</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email">
+            </div>
+            <div>
+                <label for="url">URL input type:</label>
+                <input type="url" name="url" id="url" placeholder="Enter URL">
+            </div>
+            <div>
+                <label for="number">number input type:</label>
+                <input type="number" name="number" id="number" placeholder="Enter your number">
+            </div>
+            <div>
+                <label for="tel">tel input type:</label>
+                <input type="tel" name="tel" id="tel" placeholder="Enter your telephone number">
+            </div>
+            <div>
+                <label for="search">search input type:</label>
+                <input type="search" name="search" id="search" placeholder="Enter your search">
+            </div>
+            <div>
+                <label for="date">Choose a date and time:</label>
+                <input type="date" name="date" id="date">
+            </div>
+            <div>
+                <label for="salary">Choose your salary:</label>
+                <input type="range" step="100" name="salary" id="salary" value="500000" min="300000" max="1000000">
+                <output class="salary-output" for="salary">500000</output>
+            </div>
+            <div class="btn">
+                <button>SUBMIT</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
